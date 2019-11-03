@@ -8,8 +8,9 @@ This instruction is specific to the slate theme but should translate well to oth
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
-
+### Project Workflow
 ![Workflow](Drawing1.png)
+
 Additionally, you may choose to set the following optional variables:
 
 ```yml
