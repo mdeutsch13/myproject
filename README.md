@@ -9,7 +9,7 @@ title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
 
-![alt text](https://github.com/mdeutsch13/myproject/blob/master/Drawing1.png "Logo Title Text 1")
+![image](https://github.com/mdeutsch13/myproject/blob/master/Drawing1.png "Logo Title Text 1")
 Additionally, you may choose to set the following optional variables:
 
 ```yml
