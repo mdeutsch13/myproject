@@ -8,7 +8,8 @@ This instruction is specific to the slate theme but should translate well to oth
 title: [The title of your site]
 description: [A short description of your site's purpose]
 ```
-
+https://github.com/mdeutsch13/myproject/blob/master/Drawing1.png
+![alt text](https://github.com/mdeutsch13/myproject/blob/master/Drawing1.png "Logo Title Text 1")
 Additionally, you may choose to set the following optional variables:
 
 ```yml
