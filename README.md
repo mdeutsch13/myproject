@@ -1,4 +1,15 @@
-## Making a Project Website
+## Boom Height Error Analysis on a Self Propelled Sprayer
+
+![Workflow](pictures/SprayerInField.jpg)
+
+### Introduction 
+blah blah blah this is the background of the project 
+
+
+
+
+
+
 
 ### Configuration variables
 
