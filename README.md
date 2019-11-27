@@ -5,7 +5,7 @@
 ### Introduction 
 blah blah blah this is the background of the project 
 
-
+![sigmaclipart](pictures/sprayerclipartsigma.png)
 
 
 
@@ -20,7 +20,7 @@ title: [Sprayer Project]
 description: [This site contains a project about sprayers]
 ```
 ### Project Workflow
-![Workflow](Drawing1.png)
+![Workflow](pictures/ProjectWorkFlow.png)
 
 Additionally, you may choose to set the following optional variables:
 
