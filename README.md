@@ -5,8 +5,8 @@
 This instruction is specific to the slate theme but should translate well to other themes.  You can change default variables in your website build by making changes in your `_config.yml` file:
 
 ```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: [Sprayer Project]
+description: [This site contains a project about sprayers]
 ```
 ### Project Workflow
 ![Workflow](Drawing1.png)
