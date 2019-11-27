@@ -29,6 +29,14 @@ Demonstrate what you would do to describe the data and if it has any patterns or
 
 Build a model, fit the model, validate the model.
 
+![ExpVar](pictures/ExplainedVariancePerRun.png)
+![Roll](pictures/ChassisRollFeatureImportancePerRun.png)
+![RollRate](pictures/ChassisRollRateFeatureImportancePerRun.png)
+![Speed](pictures/VehicleSpeedFeatureImportancePerRun.png)
+![BoomRoll](pictures/BoomRollFeatureImportancePerRun.png)
+![BoomRollRate](pictures/BoomRollRateFeatureImportancePerRun.png)
+
+
 ### Communciate and visualize the results
 
 What did you learn and do the results make sense?  Revisit your initial question and answer it.  H
@@ -91,7 +99,6 @@ title: [Sprayer Project]
 description: [This site contains a project about sprayers]
 ```
 ### Project Workflow
-![Workflow](pictures/ProjectWorkFlow.png)
 
 Additionally, you may choose to set the following optional variables:
 
