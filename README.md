@@ -23,7 +23,6 @@ What is the scientitifc goal?  What would you do if you had all the data?  What 
 
 ### Project Workflow
 
-blah blah blah this is what i gonna do in this project
 ![Workflow](pictures/ProjectWorkFlow.png)
 ### Data description
 The data used in this analysis is CAN data from field testing. The signals are packed into a MATLAB structure and all the signals contain a 'time' and a 'val' data vector. Each field run has its own data structure and the runs are distinguished by a run number in the name of the structure containing the data. 
@@ -41,7 +40,6 @@ The plot below shows the process of determining the error for each run. Becasue 
 ![mtlberr](pictures/AngleErrorMATLAB.PNG)
 The first ten runs and the results:
 ![modelperf](pictures/ModelPerf.PNG)
-
 
 
 Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
@@ -68,15 +66,14 @@ The following plots show the results of the random forest analysis.
 
 Build a model, fit the model, validate the model.
 
-### Communciate and visualize the results
+### Discussion and Results
+Overall, the analysis produced some interesting results. The results can be summarized by the plot shown below. This plot shows the mean feature importance for each feature over the course of 42 different runs. The error bars represent 2 standard deviations which represents a 95% CI. 
 
+![ftimp](pictures/95CIofMeanFeatImp.png)
 
-![Workflow](pictures/95CIofMeanFeatImp.png)
+According to this plot, the feature that seemed to have the most significant impact on error was boom roll. However, the distribution of this significance was fairly large. Vehicle speed also seemed to have a significant impact on error, but again the dsitribution of the significance over the 42 runs was fairly large. The answer to the analysis question appears to be boom roll, then vehicle speed. It is interesting to note that the rates seem to have a very low and consistant importance level. This is usefull information and good to know for future development activites. 
 
-
-
-
-
+To continue this project in the future, many things can be done. This project is a good base for a lot of future development. The strucutre I created allows for the addition of many other CAN signals which should be used for analysis. Signals such as accelerations, tilt cylinder acutauions, and suspension behavior should be added into this analysis to better understand the vehicle dynamics. Also, the first thing to add in would be a column for severity of terrain input. Then, the whole analysis should be run again and the results should be generated. 
 
 
 
@@ -86,12 +83,16 @@ What did you learn and do the results make sense?  Revisit your initial question
 
 ### Class Exercise
 
+
+
+
+
+
 In each project, I'd like to see a homework assignment that the class can do/evaluate to learn more about your data.  This should be a reproducible notebook that allows them to learn one or more aspects of your data workflow.  It is also an opportunity to share your research with your colleagues.
 
 Here is an example of a fantastic project website:
 
 https://stephenslab.github.io/ipynb-website/
-
 
 
 ### Notebooks
