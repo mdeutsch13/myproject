@@ -35,15 +35,24 @@ This format required a significant amount of data wrangling to be completed befo
 What kind of data is avialble?  How is your data collected?  Are there any concerns about the data?  Which data is the most relevant?  Is the data easy to acccess? Will the data change over time?  What needs to be done to the data to get it ready for any downstream analysis?
 
 
-### Explore the data
+### Data Exploration
+
+The plot below shows the process of determining the error for each run. Becasue this analysis was done on a run-by-run basis in a loop, the data exploration was done mostly manually in MATLAB. This plot is an example of how the data was explored to check for anamolies or issues with the data. Also, the run-by-run random forest analysis exposed some inconsistancies in the data which were later fixed.  
+![mtlberr](pictures/AngleErrorMATLAB.PNG)
+The first ten runs and the results:
+![modelperf](pictures/ModelPerf.PNG)
+
+
 
 Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
 
 
-
 ### Model the data
+The model produced the following mean metrics for the random forest analysis. The random forest analysis was set to 1000 estimators and a training size of 75%. 
 
-Build a model, fit the model, validate the model.
+![modelperfmean](pictures/ModelPerfMean.PNG)
+
+The following plots show the results of the random forest analysis. 
 
 ![ExpVar](pictures/ExplainedVariancePerRun.png)
 
@@ -57,6 +66,7 @@ Build a model, fit the model, validate the model.
 
 ![BoomRollRate](pictures/BoomRollRateFeatureImportancePerRun.png)
 
+Build a model, fit the model, validate the model.
 
 ### Communciate and visualize the results
 
