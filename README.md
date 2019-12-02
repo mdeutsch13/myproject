@@ -3,11 +3,21 @@
 ![Workflow](pictures/SprayerInField.jpg)
 
 ### Introduction 
-blah blah blah this is the background of the project 
+Agricultural self-propelled sprayers have been used for decades to apply herbicides, pesticides, and fertilizers to crops of all shapes and sizes in all regions of the world. Some of the major components on these machines are: high clearance tires, chassis, solution tank, cab, engine, and a boom which carries the solution away from the machine and applies it to the crop. These machines typically operate at speeds ranging from 8-15 mph, and weigh approximately 20 tons when fully loaded. The boom size typically ranges from 90 ft. to 120 ft. With the size of the boom and mass of the machine, you can quickly see how boom stability becomes a big issue, especially when the machine is operating at speeds upwards of 15 mph. Terrain inputs have an impact on the stability of the machine which have an impact on the stability of the boom. Boom instability causes uneven application of the product which leads to spray drift and reduced yield potential. Uneven boom height across the crop canopy can also lead to crop damage.  Overall, boom height instability is a big issue and causes many issues that can have big agronomic impacts for farmers. 
+
+The current solution to this problem is mechanical boom suspension designs, along with boom height control software. The mechanical boom suspension has been designed to de-couple the boom from the rest of the machine. It consists of linkages which minimally constrain the boom to a swinging motion, and mechanical dampers which aim at dissipating kinetic energy from the system. The boom control software is a feedback loop that is based on ground measurements from ultrasonic sensors located at 5 places arcross the boom. Hydraulic cylinders tilt the booom up or down to try to maintain a specified target height. The mechanical design and control software certain help with the issue of boom height instability, but it still presents itself as a major issue in the world of self propelled sprayers. 
 
 ![sigmaclipart](pictures/sprayerclipartsigma.png)
 
 ### Interesting question 
+
+
+
+This project aims at answering the questions: **What causes boom height error? What is the biggest predictor of boom height error?**
+
+Boom height error is the singular metric that determines the system level performance of a sprayer. Many factors influence error, such as boom roll, chassis roll, roll rates, ground speed, and other dynamic machine responses. However, to this day, we don't know what is the most important **cause of boom height error?** Can boom height error be predicted?? This project aims at gaining a better understanding of the ranking of these predictors. By ranking these features in terms of their importance to error, a roadmap starts to form to guide development activities in reducing boom height error. Boom suspensions and control software are solutions to the problem, but a clear definition of **what the problem actually is** does not exist. This analysis aims at defining this problem, so that better solutions can be integrates to improve performance.
+
+
 
 What is the scientitifc goal?  What would you do if you had all the data?  What do you want to predict or estimate?  Why is this relevant to ABE researchers or the field?  Provide some background on the rationale and relevance.
 
@@ -16,6 +26,10 @@ What is the scientitifc goal?  What would you do if you had all the data?  What 
 blah blah blah this is what i gonna do in this project
 ![Workflow](pictures/ProjectWorkFlow.png)
 ### Data description
+The data used in this analysis is CAN data from field testing. This data comes 
+
+
+
 
 What kind of data is avialble?  How is your data collected?  Are there any concerns about the data?  Which data is the most relevant?  Is the data easy to acccess? Will the data change over time?  What needs to be done to the data to get it ready for any downstream analysis?
 
