@@ -26,8 +26,9 @@ What is the scientitifc goal?  What would you do if you had all the data?  What 
 blah blah blah this is what i gonna do in this project
 ![Workflow](pictures/ProjectWorkFlow.png)
 ### Data description
-The data used in this analysis is CAN data from field testing. This data comes 
+The data used in this analysis is CAN data from field testing. The signals are packed into a MATLAB structure and all the signals contain a 'time' and a 'val' data vector. Each field run has its own data structure and the runs are distinguished by a run number in the name of the structure containing the data. 
 
+This format required a significant amount of data wrangling to be completed before executing a machine learning analysis. The data had to be downsampled and rearranged. A MATLAB script takes the data strucutre for each run and outputs a csv file containing normalized data for each run, along with an error metric. Because each signal is collected at a different frequency, the data had to be down sampled to created a common time vector. The MATLAB script is robust and all that would need to happen to process another dataset is change the numbers of the files to correspond to whatever you want to run. 
 
 
 
@@ -39,23 +40,39 @@ What kind of data is avialble?  How is your data collected?  Are there any conce
 Demonstrate what you would do to describe the data and if it has any patterns or anomolies.  Make some plots.
 
 
+
 ### Model the data
 
 Build a model, fit the model, validate the model.
 
 ![ExpVar](pictures/ExplainedVariancePerRun.png)
+
 ![Roll](pictures/ChassisRollFeatureImportancePerRun.png)
+
 ![RollRate](pictures/ChassisRollRateFeatureImportancePerRun.png)
+
 ![Speed](pictures/VehicleSpeedFeatureImportancePerRun.png)
+
 ![BoomRoll](pictures/BoomRollFeatureImportancePerRun.png)
+
 ![BoomRollRate](pictures/BoomRollRateFeatureImportancePerRun.png)
 
 
 ### Communciate and visualize the results
 
-What did you learn and do the results make sense?  Revisit your initial question and answer it.  H
 
 ![Workflow](pictures/95CIofMeanFeatImp.png)
+
+
+
+
+
+
+
+
+What did you learn and do the results make sense?  Revisit your initial question and answer it.  H
+
+
 
 ### Class Exercise
 
