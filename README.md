@@ -50,7 +50,6 @@ The following plots show the results of the random forest analysis.
 
 ![BoomRollRate](pictures/BoomRollRateFeatureImportancePerRun.png)
 
-Build a model, fit the model, validate the model.
 
 ### Discussion and Results
 Overall, the analysis produced some interesting results. The results can be summarized by the plot shown below. This plot shows the mean feature importance for each feature over the course of 42 different runs. The error bars represent 2 standard deviations which represents a 95% CI. 
