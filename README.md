@@ -32,7 +32,7 @@ The first ten runs and the results:
 
 
 ### Data Model
-The model produced the following mean metrics for the random forest analysis. The random forest analysis was set to 1000 estimators and a training size of 75%. 
+The model chosen for this analysis was random forest. This is a classification machine learning technique that operates on the principle of a lot of individual decision trees. This model used the sprayer attributes as predictors, and the error as the class. This technique was especially well equip for this project due to its ability to produce numbers on feature importance. We not only wanted to predict the correct class, we wanted to see which features were most important in classifying the correct class. The model produced the following mean metrics for the random forest analysis. The random forest analysis was set to 1000 estimators and a training size of 75%. 
 
 ![modelperfmean](pictures/ModelPerfMean.PNG)
 
