@@ -16,7 +16,7 @@ Boom height error is the singular metric that determines the system level perfor
 
 ### Project Workflow
 
-![WorkFlow](pictures/ProjectWorkFlow2.png)
+![WorkFlow](pictures/ProjectWorkflow2.png)
 ### Data Description
 The data used in this analysis is CAN data from field testing. The signals are packed into a MATLAB structure and all the signals contain a 'time' and a 'val' data vector. Each field run has its own data structure and the runs are distinguished by a run number in the name of the structure containing the data. 
 
